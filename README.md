@@ -23,3 +23,7 @@ NR 		%rax	arg0 (%rdi)	    arg1 (%rsi)	     arg2 (%rdx)	         arg3 (%r10) arg4
 ## 2.Process and thread and why there is need of process if thread can do better ? 
 ## 3.Explain all about objdump ?
 ## 4.All about debugging concept using valgrind ?
+## 5.what are the advantage macro over function and function over macro?
+- The main advantage is speed  
+- Macros are typically faster than functions as they don't involve actual function call overhead.
+- No time is taken up in passing control to a new function, because control never leaves the home function. The macro just makes the function a bit longer. Macros may make       compiling slower but the compiled programs are faster.
