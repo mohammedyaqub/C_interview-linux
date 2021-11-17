@@ -5,7 +5,7 @@
 &#8594;woking </br>
   * it is initiated as software interrupt handle by the wrapper function(holds the address of appropriate handler function) as function pointer  
   * It passes the arguments by pushing on to stack then invoke a mostly glibc or libc.a wrapper func located unistd.h the wrapper func copies syscall number to specific register(arhitecture dependent rax in case x86) and also copies arguments to specific register given below
-  * 
+  * In case of more than 6 args then reference to the structure is passed 
   identify system call number and store in cpu register 
   * ABI
 ![transition](system_call.png "Title")
