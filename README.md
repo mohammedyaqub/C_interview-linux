@@ -27,3 +27,4 @@ NR 		%rax	arg0 (%rdi)	    arg1 (%rsi)	     arg2 (%rdx)	         arg3 (%r10) arg4
 - The main advantage is speed  
 - Macros are typically faster than functions as they don't involve actual function call overhead.
 - No time is taken up in passing control to a new function, because control never leaves the home function. The macro just makes the function a bit longer. Macros may make       compiling slower but the compiled programs are faster.
+- Advantage of Functions(re-useability instead of copy pasting a macro) they are useful when large code is to be written and its does type check and compile time errors 
