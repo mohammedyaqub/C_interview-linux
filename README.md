@@ -1,4 +1,6 @@
 # C & linux interview questions
+## What is an OS ?  
+   It used manage the hardware resource efficiently, Its a main program which is used schedule the other sub programs. 
 ## How does system call works in linux ?
 - system call is a interface between priviledge (kernel mode) and non-priviledge(user mode )
 - It is sequence set of instruction to be executed by kernel upon user request </br>
